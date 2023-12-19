@@ -12,7 +12,8 @@
 - 开启对应端口后，探测部分IP有丢包情况，ASW侧开启端口后延迟了30s后加入聚合组，CSW侧直接加入聚合组
 - 此时不符合变更预期，检查变更配置正常、操作步骤正常，怀疑lacp协商问题，收集故障信息排查
 - CSW侧物理端口加入聚合组正常
-![1702972261849](https://github.com/XuYBup/Network/assets/111575435/09ce3798-61aa-47e9-bc61-f641c64a3eff)
+![image](https://github.com/XuYBup/Network/assets/111575435/fcf96b4b-3bb5-4d8b-8630-f18111cc06bd)
+
 - ASW侧物理端口up，延迟30s加入聚合组，不符合预期
 ![image](https://github.com/XuYBup/Network/assets/111575435/e644a6c5-8488-4375-8e69-991751a5387c)
 
